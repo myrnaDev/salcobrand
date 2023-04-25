@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Salcobrand te escucha</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <img src="images/banner-salco.jpg" alt="">
+  </header>
+  <div class="container">
+    <div class="contents">
+      <div class="texto-1">
+        <p>En Salcobrand queremos conocer tu experiencia con nosotros, para así entregarte cada vez mejores momentos.
+        </p>
+        <p>Ayúdanos a mejorar completando algunos datos abajo y respondiendo una corta encuesta, que no te tomará más de
+          2 minutos.</p>
+      </div>
+      <div class="texto-2">
+        Ingresa tus datos
+      </div>
+      <form id="formulario" action="" method="post" class="form-1">
+        <div class="row">
+          <div class="col1a">
+            <img src="images/sal01.png" alt="">
+          </div>
+          <div class="col2a">
+            <div class="datos-n n">
+              <label for="name">Nombre:</label>
+              <input type="text" id="nombre" name="firstname" data-message-error="*Ingresa un nombre válido" />
+            </div>
+            <div class="datos-n">
+              <label for="mail">Apellido:</label>
+              <input type="text" id="apellido" name="lastname" data-message-error="*Ingresa un apellido válido"
+                data-message-success="" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1a">
+            <img src="images/sal02.png" alt="">
+          </div>
+          <div class="col2a">
+            <div class="tworut up datos-r">
+              <label for="rut">Rut:</label>
+              <input type="text" id="rut" name="rut" data-message-error="*Ingresa un rut válido" />
+            </div>
+            <div class="guion">
+              &#8211;
+            </div>
+            <div class="onerut datos-r">
+              <input type="text" id="rut_dv" name="rut_dv" data-message-error="*" maxlength="1" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1a">
+            <img src="images/sal03.png" alt="">
+          </div>
+          <div class="col2a">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" data-message-error="*Ingresa un email válido" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1a">
+            <img src="images/sal04.png" alt="">
+          </div>
+          <div class="col2a">
+            <label for="boleta">Número de boleta:</label>
+            <input type="text" id="boleta" name="boleta" data-message-error="*Ingresa un número de boleta válido" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1a">
+            &nbsp;
+          </div>
+          <div class="col2a">
+            <p class="required">*Todos los campos son obligatorios</p>
+          </div>
+        </div>
+        <div class="row checked">
+          <div class="col1b">
+            <input type="checkbox" name="agree" id="agree" class="checkbox" /><label for="agree"
+              id="checklabel"></label>
+          </div>
+          <div class="col2b">
+            <p class="terms datos-r">He leído y acepto los Términos y Condiciones</p>
+            <p class="required2">*Campo requerido</p>
+          </div>
+        </div>
+        <div class="row checked">
+          <div class="col1c">
+            &nbsp;
+          </div>
+          <div class="col2c">
+            <input type="submit" id="btn_submit" class="button-primary submit" value="Ir a la Encuesta"></input>
+          </div>
+        </div>
+        <div class="cc"></div>
+      </form>
+    </div>
+
+  </div>
+  <div id="footer">
+    <div class="container">
+      <div class="footersalco01"><img src="images/footer-salco01.jpg" alt=""></div>
+      <div class="elementf"></div>
+      <div class="footersalco02"><img src="images/footer-salco02.jpg" alt=""></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
